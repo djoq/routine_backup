@@ -1,0 +1,16 @@
+{
+  "name": "routine_backups",
+  "version": "1.0.0",
+  "description": "backup docker containers regularly, push to git'",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "danny oquinn",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "pg": "^6.1.2",
+    "say.js": "^1.1.0"
+  }
+}
